@@ -24,7 +24,7 @@ connectDB()
 ;(async ()=>{
     try {
         await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`)
-        app.on("erroe", (error)=>{
+        app.on("error", (error)=>{
             console.log("Error : ", error);
             throw error
         })
