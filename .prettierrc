@@ -1,0 +1,7 @@
+{
+    "singleQuote" : false,
+    "backtracking" : true,
+    "tabwidth" : 2,
+    "semi" : true,
+    "tarillingComma": "es5"
+}
